@@ -1,38 +1,47 @@
-.App {
+.app {
   text-align: center;
+  padding: 20px;
+  background-color: #034f84;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#inner_header {
+  color: #feb236;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 3rem;
+  font-weight: bolder;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.markdown-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+  margin-top: 20px;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
 
-.App-link {
-  color: #61dafb;
+#editor {
+  width: 45%;
+  height: 400px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+  border: 5px solid #b8a9c9;
+  border-radius: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#preview {
+  width: 45%;
+  height: 400px;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 2px solid #ccc;
+  overflow-y: auto;
+  border: 5px solid #b8a9c9;
+  border-radius: 5px;
 }
